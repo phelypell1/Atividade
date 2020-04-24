@@ -12,6 +12,6 @@ public class ator_dal {
   public ArrayList<Ator_model> list = new ArrayList<Ator_model>();
     public void Cadastrar(Ator_model actor) {
         list.add(actor);
-        JOptionPane.showMessageDialog(null, list.);
+        JOptionPane.showMessageDialog(null, list);
     }
 }
